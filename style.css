@@ -126,6 +126,8 @@ div {
 
 .nav__link__contact {
   background: none;
+  display: flex;
+  gap: 20px;
 }
 
 .btn {
@@ -142,6 +144,14 @@ div {
   color: var(--font-color);
   font-size: 18px;
 }
+
+#display  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 
 /* estilos de la informacion de los tratamientos */
 
@@ -166,7 +176,7 @@ div {
 
 .info__description {
   color: var(--font-color);
-  margin: 25px;
+  margin: 4px;
   padding: 10px;
   border-radius: 4px;
   background-color: #292728a1;
@@ -214,6 +224,13 @@ div {
   visibility: hidden;
 }
 
+.whatsapp{
+  background: none;
+  width: 15px ;
+  height: 15px;
+  
+}
+
 
 /* medias query */
 
@@ -256,7 +273,9 @@ div {
   .info-point {
     margin: 30px;
     background: none;
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 25px;
+
   }
 
   .activo{
