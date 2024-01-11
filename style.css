@@ -204,6 +204,18 @@ div {
   background: none;
 }
 
+.info-point_img{
+  width: 130px ;
+  height:130px
+   ;
+   border-radius: 4px;
+}
+
+.info-point_container{
+  display: flex;
+  align-items: center;
+}
+
 .open{
     display: block;
 }
@@ -229,6 +241,27 @@ div {
   width: 15px ;
   height: 15px;
   
+}
+
+/* estilos de descripcion tratamiento */
+
+.description{
+  color: var(--font-color);
+  margin: 100px;
+
+}
+
+.description_title{
+  text-align: center;
+  padding-bottom: 15px;
+  color: var(--color-name);
+  font-size: 30px;
+}
+
+.description_info{
+ max-width: 800px;
+  text-align: center;
+  margin: auto;
 }
 
 
@@ -306,7 +339,61 @@ div {
     visibility: visible;
   }
 
+
+  .description{
+    color: var(--font-color);
+    margin: 20px;
+  
+  }
+  
+  .description_title{
+    text-align: center;
+    padding-bottom: 15px;
+    color: var(--color-name);
+    font-size: 30px;
+  }
+  
+  .description_info{
+   max-width: 800px;
+    text-align: center;
+    margin: auto;
+  }
+
+ 
+
   
 }
+
+@media screen and (max-width: 520px){
+
+  .info-point_img{
+    width: 100px ;
+    height:100px
+     ;
+     border-radius: 4px;
+  }
+  
+  .info-point {
+    margin: 12px;
+    line-height: normal;
+    
+
+  }
+
+  .info__description {
+    
+    height: fit-content;
+  
+    
+  }
+
+  
+  }
+
+
+
+
+
+
 
 
