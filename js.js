@@ -10,6 +10,7 @@ const info4 = document.getElementById('info4')
 
 const btnMenu = document.getElementById('btn-menu')
 const activo = document.getElementById('active')
+const producto= document.getElementById('producto')
 
 //funcion para abrir la informacion 
 
@@ -35,4 +36,8 @@ openBtn4.addEventListener('click',() =>{
 
 btnMenu.addEventListener('click', () =>{
     activo.classList.toggle('visibility')
+} )
+
+producto.addEventListener('click', () =>{
+    alert('PROXIMAMENTE...')
 } )
