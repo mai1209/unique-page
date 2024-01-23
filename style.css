@@ -29,7 +29,7 @@ hr {
 /* estilos de header */
 
 .header {
-  background-image: url(./img/mujer-joven-tratamiento-contra-edad-salon-spa.jpg);
+  background-image: url(./img/pexels-gustavo-fring-3985329\ \(1\).jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -345,6 +345,7 @@ div {
   background-color: #a33653d3;
   padding: 30px;
   border-radius: 7px;
+
 }
 
 .contact__form {
@@ -528,7 +529,9 @@ input {
 
   .container__contact {
 
-    grid-template-columns: 120px 120px;
+    grid-template-columns: 1fr 1fr;
+    min-width: 320px;
+    max-width: 520px;
  
     
   }
