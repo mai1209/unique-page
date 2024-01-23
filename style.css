@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Slab:wght@100&family=Julius+Sans+One&family=Lemon&family=Libre+Baskerville&family=Marmelad&family=Quicksand:wght@600&family=Rosario&family=Salsa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Slab:wght@100&family=Julius+Sans+One&family=Lemon&family=Libre+Baskerville&family=Marmelad&family=Quicksand:wght@600&family=Rosario&family=Salsa&display=swap");
 
 :root {
   --font-color: #fff1e6;
@@ -12,17 +12,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
+
   font-family: "Libre Baskerville", serif;
-  
 }
 
-hr{
+body {
+  background-color: var(--background-color);
+}
+
+hr {
   margin: 30px;
   background-color: #d80a41;
   height: 3px;
- 
-  
 }
 
 /* estilos de header */
@@ -45,7 +46,7 @@ hr{
   color: black;
   font-size: 25px;
   font-weight: 800;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .name-subtitle {
@@ -54,7 +55,7 @@ hr{
   color: var(--font-color);
   padding-left: 4px;
   letter-spacing: 2.4px;
-  font-family: 'Rosario', sans-serif;
+  font-family: "Rosario", sans-serif;
 }
 
 .logo {
@@ -63,22 +64,23 @@ hr{
   gap: 5px;
 }
 
-.logo__name{
+.logo__name {
   display: flex;
   flex-direction: column;
+align-items: center;
   gap: 3px;
 }
 
-.div__u p{
+.div__u p {
   background: none;
   font-size: 45px;
   color: var(--color-name);
-  font-family: 'Marmelad', sans-serif;
+  font-family: "Marmelad", sans-serif;
   text-transform: uppercase;
 }
 
-span{
-  font-family: 'Josefin Slab', serif;
+span {
+  font-family: "Josefin Slab", serif;
   background: none;
   font-weight: 600;
 }
@@ -151,7 +153,7 @@ div {
 .span-name {
   color: black;
   text-transform: uppercase;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .nav__link__contact {
@@ -175,13 +177,12 @@ div {
   font-size: 18px;
 }
 
-#display  {
+#display {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-
 
 /* estilos de la informacion de los tratamientos */
 
@@ -192,10 +193,7 @@ div {
   margin: 100px;
   gap: 20px;
   flex-wrap: wrap;
-  
 }
-
-
 
 .info-title {
   background-color: var(--color-name);
@@ -204,7 +202,6 @@ div {
   border-radius: 4px;
   cursor: pointer;
   letter-spacing: 2px;
-  
 }
 
 .info__description {
@@ -215,18 +212,12 @@ div {
   background-color: #292728a1;
   background-blend-mode: multiply;
   height: 300px;
- 
+
   display: none;
-  
 }
-
-
-
-
 
 .info__description p {
   background: none;
-  
 }
 
 .info-point {
@@ -239,23 +230,22 @@ div {
   background: none;
 }
 
-.info-point_img{
-  width: 130px ;
-  height:130px
-   ;
-   border-radius: 4px;
+.info-point_img {
+  width: 130px;
+  height: 130px;
+  border-radius: 4px;
 }
 
-.info-point_container{
+.info-point_container {
   display: flex;
   align-items: center;
 }
 
-.open{
-    display: block;
+.open {
+  display: block;
 }
 
-.info-div{
+.info-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -264,37 +254,35 @@ div {
 .img {
   height: 20px;
   width: 20px;
-  background:none;
+  background: none;
 }
 
-.btn-menu{
+.btn-menu {
   visibility: hidden;
 }
 
-.whatsapp{
+.whatsapp {
   background: none;
-  width: 15px ;
+  width: 15px;
   height: 15px;
-  
 }
 
 /* estilos de descripcion tratamiento */
 
-.description{
+.description {
   color: var(--font-color);
   margin: 100px;
-
 }
 
-.description_title{
+.description_title {
   text-align: center;
   padding-bottom: 15px;
   color: var(--color-name);
   font-size: 30px;
 }
 
-.description_info{
- max-width: 800px;
+.description_info {
+  max-width: 800px;
   text-align: center;
   margin: auto;
   color: black;
@@ -302,82 +290,122 @@ div {
 
 /* estilos para el footer */
 
-.footer{
-color: black;
-background-color: var(--background-color-nav);
+.footer {
+  color: black;
+  background-color: var(--background-color-nav);
 }
 
-.footer__container{
+.footer__container {
   display: flex;
   justify-content: space-around;
   padding: 20px;
 }
 
-.footer__logo{
+.footer__logo {
   display: flex;
   gap: 8px;
   align-items: center;
   justify-content: center;
-  
-
 }
 
-
-.footer__data{
+.footer__data {
   font-size: 10px;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  
-  
- 
-  
 }
 
-.footer__data h4{
+.footer__data h4 {
   font-size: 15px;
 }
 
-.footer__data__list{
-list-style: none;
-display: flex;
-flex-direction: column;
-gap: 10px;
-
-
+.footer__data__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.footer__li{
+.footer__li {
   display: flex;
   gap: 10px;
- 
-
+  align-items: center;
 }
 
-.footer__data h4,
-.footer__data ul,
-.footer__data ul li,
-.footer__data ul li img,
-.footer__data ul li p{
-  background: none;
+/* Estilo section contacto */
 
+.contact {
+  color: var(--background-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.container__contact {
+  background-color: #a33653d3;
+  padding: 30px;
+  border-radius: 7px;
+}
 
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
+.container__contact {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 1fr 1fr 1f 3fr;
+  gap: 10px;
+}
+
+.contact__form:nth-child(1) {
+  grid-column: 1 / span 2;
+}
+
+.contact__form:nth-child(2) {
+  grid-column: 1 / span 1;
+}
+
+.contact__form:nth-child(3) {
+  grid-column: 2 / span 1;
+}
+
+.contact__form:nth-child(4) {
+  grid-column: 1 / span 2;
+}
+
+.contact__form:nth-child(5) {
+  grid-column: 1 / span 2;
+}
+
+input {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.submit{
+  color: black;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 800;
+  border: solid 1px #d80a41 ;
+  cursor: pointer;
+}
 
 /* medias query */
 
 @media screen and (max-width: 768px) {
   /* Estilos para pantallas de hasta 768px de ancho */
 
-  .nav__name{
+  .nav__name {
     text-align: center;
     padding-top: 90px;
     font-size: 25px;
   }
 
-  .span-name{
+  .span-name {
     font-size: 30px;
   }
   .nav__title {
@@ -386,8 +414,7 @@ gap: 10px;
     text-align: center;
   }
 
-  .btn a{
-
+  .btn a {
     font-size: 12px;
   }
 
@@ -397,26 +424,24 @@ gap: 10px;
     font-size: 12px;
   }
 
-  .info-div{
+  .info-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-
 
   .info-point {
     margin: 30px;
     background: none;
     font-size: 12px;
     line-height: 25px;
-
   }
 
-  .activo{
+  .activo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
     background-color: #292728a1;
     padding: 20px;
@@ -425,89 +450,92 @@ gap: 10px;
     right: 0;
     top: 70px;
 
-    visibility:hidden;
+    visibility: hidden;
   }
 
-  .visibility{
+  .nav__link{
+    border-bottom: 1px solid  var(--color-name);
+    width: 100%;
+  }
+
+  .visibility {
     visibility: visible;
   }
 
-  .btn-menu{
+  .btn-menu {
     background: none;
-    width:45px ;
+    width: 45px;
     height: 45px;
     cursor: pointer;
     visibility: visible;
   }
 
-
-  .description{
+  .description {
     color: var(--font-color);
     margin: 20px;
-  
   }
-  
-  .description_title{
+
+  .description_title {
     text-align: center;
     padding-bottom: 15px;
     color: var(--color-name);
     font-size: 30px;
   }
-  
-  .description_info{
-   max-width: 800px;
+
+  .description_info {
+    max-width: 800px;
     text-align: center;
     margin: auto;
     font-size: 12px;
   }
 
- 
+  /* estilos de contacto movil */
 
- 
+  .contact {
+    flex-direction: column;
+    gap: 30px;
+  }
 
-  
+  .container__contact {
+    padding: 10px;
+  }
+
+
 }
 
-@media screen and (max-width: 520px){
-
-  .info-point_img{
-    width: 100px ;
-    height:100px
-     ;
-     border-radius: 4px;
+@media screen and (max-width: 520px) {
+  .info-point_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
   }
-  
+
   .info-point {
     margin: 12px;
     line-height: normal;
-    
-
   }
 
   .info__description {
-    
     height: fit-content;
-  
-    
   }
 
-  .footer__container{
-  
+  .footer__container {
     flex-direction: column;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
-   
   }
 
+  .container__contact {
 
-  
+    grid-template-columns: 120px 120px;
+ 
+    
   }
 
+  .map{
+    width: 240px;
+    height: 150px;
 
-
-
-
-
-
-
+  }
+}
