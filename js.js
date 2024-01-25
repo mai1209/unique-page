@@ -46,13 +46,19 @@ btnMenu.addEventListener('click', () =>{
 //FUNCION DE ALERTA PARA PRODUCTOS
 
 producto.addEventListener('click', () =>{
-    alert('PROXIMAMENTE...')
+    Swal.fire({
+        title: "Proximamente...",
+      
+      });
 } )
 
 //FUNCION PARA MENSAJE DE EXITO CUANDO SE ENVIA EL FORMULARIO
- submit.addEventListener('DOMContentLoaded', () =>{
-    
-    alert('SU MENSAJE SE ENVIO CON EXITO...')
+ submit.addEventListener('click', () =>{
+    Swal.fire({
+        icon:"success",
+        title: "Su Mensaje se Envio con Exito",
+        text:" Le Responderemos a la Brevedad",
+      });
 
    
 } )
