@@ -12,6 +12,9 @@ const btnMenu = document.getElementById('btn-menu')
 const activo = document.getElementById('active')
 const producto= document.getElementById('producto')
 const submit= document.getElementById('submit')
+const formulario= document.getElementById('formulario')
+
+
 
 
 //funcion para abrir la informacion 
@@ -47,6 +50,13 @@ producto.addEventListener('click', () =>{
 } )
 
 //FUNCION PARA MENSAJE DE EXITO CUANDO SE ENVIA EL FORMULARIO
-submit.addEventListener('click', () =>{
+ submit.addEventListener('DOMContentLoaded', () =>{
+    
     alert('SU MENSAJE SE ENVIO CON EXITO...')
+
+   
 } )
+
+
+
+
