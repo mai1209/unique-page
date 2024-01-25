@@ -11,6 +11,8 @@ const info4 = document.getElementById('info4')
 const btnMenu = document.getElementById('btn-menu')
 const activo = document.getElementById('active')
 const producto= document.getElementById('producto')
+const submit= document.getElementById('submit')
+
 
 //funcion para abrir la informacion 
 
@@ -38,6 +40,13 @@ btnMenu.addEventListener('click', () =>{
     activo.classList.toggle('visibility')
 } )
 
+//FUNCION DE ALERTA PARA PRODUCTOS
+
 producto.addEventListener('click', () =>{
     alert('PROXIMAMENTE...')
+} )
+
+//FUNCION PARA MENSAJE DE EXITO CUANDO SE ENVIA EL FORMULARIO
+submit.addEventListener('click', () =>{
+    alert('SU MENSAJE SE ENVIO CON EXITO...')
 } )
