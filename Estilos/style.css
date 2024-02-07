@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Slab:wght@100&family=Julius+Sans+One&family=Lemon&family=Libre+Baskerville&family=Marmelad&family=Quicksand:wght@600&family=Rosario&family=Salsa&display=swap");
+
+:root {
+  --font-color: #fff1e6;
+  --background-color: #ebe8e8;
+  --background-color-nav: #3d353779;
+  --color-name: #d80a41;
+  --color-logo: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Libre Baskerville", serif;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+hr {
+  margin: 30px;
+  background-color: #d80a41;
+  height: 3px;
+}
+
+/* estilos de header */
+
+.header {
+  background-image: url(../img/pexels-gustavo-fring-3985329\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+  height: 400px;
+  background-color: #292728a1;
+  background-blend-mode: multiply;
+}
+
+.name {
+  background: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.name-subtitle {
+  background: none;
+  font-size: 7px;
+  color: var(--font-color);
+  padding-left: 4px;
+  letter-spacing: 2.4px;
+  font-family: "Rosario", sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo__name {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  gap: 3px;
+}
+
+.div__u p {
+  background: none;
+  font-size: 45px;
+  color: var(--color-name);
+  font-family: "Marmelad", sans-serif;
+  text-transform: uppercase;
+}
+
+span {
+  font-family: "Josefin Slab", serif;
+  background: none;
+  font-weight: 600;
+}
+
+.nav {
+  background: none;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: #292728a1;
+}
+
+div {
+  background: none;
+}
+
+.nav__link {
+  background: none;
+  border-radius: 5px;
+  color: var(--font-color);
+  padding: 10px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: var(--color-name);
+}
+
+.nav__link:hover {
+  text-shadow: 1px 1px 6px #fff;
+  background-color: var(--color-name);
+}
+
+.btn:hover {
+  box-shadow: inset 0 0 20px var(--background-color-nav),
+    0 0 20px var(--background-color-nav);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff;
+}
+
+.container-title {
+  background: none;
+  color: var(--font-color);
+  font-size: 30px;
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.nav__title,
+.nav__name {
+  background: none;
+}
+
+.nav__title {
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+.span-name {
+  color: black;
+  text-transform: uppercase;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.nav__link__contact {
+  background: none;
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background: none;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: var(--color-name);
+}
+
+.btn a {
+  background: none;
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 18px;
+}
+
+#display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.whatsapp {
+  background: none;
+  width: 15px;
+  height: 15px;
+}
+
+/* estilos de descripcion tratamiento */
+
+.description {
+  color: var(--font-color);
+  margin: 100px;
+}
+
+.description_title {
+  text-align: center;
+  padding-bottom: 15px;
+  color: var(--color-name);
+  font-size: 30px;
+}
+
+.description_info {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  color: black;
+}
+
+/* estilos para el footer */
+
+.footer {
+  color: black;
+  background-color: var(--background-color-nav);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer__logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__data {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__data h4 {
+  font-size: 15px;
+}
+
+.footer__data__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+

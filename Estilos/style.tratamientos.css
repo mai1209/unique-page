@@ -1,0 +1,81 @@
+
+/* estilos de la informacion de los tratamientos  */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.info-title {
+  background-color: var(--color-name);
+  color: var(--font-color);
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.info__description {
+  color: var(--font-color);
+  margin: 4px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #292728a1;
+  background-blend-mode: multiply;
+  height: 300px;
+
+
+ display: none;
+}
+
+.info__description p {
+  background: none;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.info-point {
+  margin: 30px;
+  background: none;
+  font-size: 14px;
+}
+
+.info-point li {
+  background: none;
+}
+
+.info-point_img {
+  width: 130px;
+  height: 130px;
+  border-radius: 4px;
+}
+
+.info-point_container {
+  display: flex;
+  align-items: center;
+}
+
+.open {
+  display: block;
+}
+
+.info-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  height: 20px;
+  width: 20px;
+  background: none;
+}
+
+.btn-menu {
+  visibility: hidden;
+}
