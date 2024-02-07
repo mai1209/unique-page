@@ -1,155 +1,130 @@
-
 /* medias query */
 
 @media screen and (max-width: 768px) {
-    /* Estilos para pantallas de hasta 768px de ancho */
-  
-    .nav__name {
-      text-align: center;
-      padding-top: 90px;
-      font-size: 25px;
-    }
-  
-    .span-name {
-      font-size: 30px;
-    }
-    .nav__title {
-      font-size: 15px;
-      padding: 10px;
-      text-align: center;
-    }
-  
-    .btn a {
-      font-size: 12px;
-    }
-  
-    .info {
-      flex-direction: column;
-      margin: 10px;
-      font-size: 12px;
-    }
-  
-    .info-div {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .info-point {
-      margin: 30px;
-      background: none;
-      font-size: 12px;
-      line-height: 25px;
-    }
-  
-    .activo {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px;
-      background-color: #292728a1;
-      padding: 20px;
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 70px;
-  
-      visibility: hidden;
-    }
-  
-    .nav__link{
-      border-bottom: 1px solid  var(--color-name);
-      width: 100%;
-    }
-  
-    .visibility {
-      visibility: visible;
-    }
-  
-    .btn-menu {
-      background: none;
-      width: 45px;
-      height: 45px;
-      cursor: pointer;
-      visibility: visible;
-    }
-  
-    .description {
-      color: var(--font-color);
-      margin: 20px;
-    }
-  
-    .description_title {
-      text-align: center;
-      padding-bottom: 15px;
-      color: var(--color-name);
-      font-size: 30px;
-    }
-  
-    .description_info {
-      max-width: 800px;
-      text-align: center;
-      margin: auto;
-      font-size: 12px;
-    }
-  
+  /* Estilos para pantallas de hasta 768px de ancho */
 
-  
-   
+  .nav__name {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 25px;
   }
-  
-  @media screen and (max-width: 520px) {
-    .info-point_img {
-      width: 100px;
-      height: 100px;
-      border-radius: 4px;
-    }
-  
-    .info-point {
-      margin: 12px;
-      line-height: normal;
-    }
-  
-    .info__description {
-      height: fit-content;
-    }
-  
-    .footer__container {
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
-      justify-content: space-between;
-    }
-  
 
-    .contact {
-      flex-direction: column;
-      gap: 30px;
-      
-    }
-  
-    
-  
-  
-    .container__contact {
-  
-      grid-template-columns: 1fr 1fr;
-      min-width: 320px;
-      max-width: 520px;
-    
-   
-      
-    }
-  
-    .map{
-      width: 240px;
-      height: 150px;
-  
-    }
+  .span-name {
+    font-size: 30px;
   }
-  
-  .rojo{
-    color:#d80a41
+  .nav__title {
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
   }
-  
+
+  .btn a {
+    font-size: 12px;
+  }
+
+  .info {
+    flex-direction: column;
+    margin: 10px;
+    font-size: 12px;
+  }
+
+  .info-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .info-point {
+    margin: 30px;
+    background: none;
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .activo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #292728a1;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 70px;
+
+    visibility: hidden;
+  }
+
+  .nav__link {
+    border-bottom: 1px solid var(--color-name);
+    width: 100%;
+  }
+
+  .visibility {
+    visibility: visible;
+  }
+
+  .btn-menu {
+    background: none;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    visibility: visible;
+  }
+
+  .description {
+    color: var(--font-color);
+    margin: 20px;
+  }
+
+  .description_title {
+    text-align: center;
+    padding-bottom: 15px;
+    color: var(--color-name);
+    font-size: 30px;
+  }
+
+  .description_info {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+  }
+  .info-point_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+  }
+
+  .info-point {
+    margin: 12px;
+    line-height: normal;
+  }
+
+  .info__description {
+    height: fit-content;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .map {
+    width: 240px;
+    height: 150px;
+  }
+}
+
+.rojo {
+  color: #d80a41;
+}

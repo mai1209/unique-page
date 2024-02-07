@@ -24,6 +24,14 @@ const producto= document.getElementById('producto')
 const submit= document.getElementById('submit')
 
 
+const navLink = document.getElementById('navLink')
+const navLink2 = document.getElementById('navLink2')
+const navLink3 = document.getElementById('navLink3')
+const navLink4 = document.getElementById('navLink4')
+
+
+
+console.log(navLink2)
 
 
 
@@ -66,7 +74,14 @@ openBtn9.addEventListener('click',() =>{
 
 btnMenu.addEventListener('click', () =>{
     activo.classList.toggle('visibility')
+   
+ if (activo.classList.contains('visibility')) {
+        btnMenu.src = ('./img/icons8-cerrar-ventana-48.png')
+    } else{
+        btnMenu.src = ('./img/icons8-menú-64.png')
+    }
 } )
+
 
 //FUNCION DE ALERTA PARA PRODUCTOS
 
@@ -87,6 +102,50 @@ producto.addEventListener('click', () =>{
 
    
 } )
+
+
+
+//funcion para cerrar el menu al hacer click en los enlaces del navbar 
+
+navLink.addEventListener ('click', () => {
+    activo.classList.remove('visibility')
+
+    if (activo.classList.contains('visibility')) {
+        btnMenu.src = ('./img/icons8-cerrar-ventana-48.png')
+    } else{
+        btnMenu.src = ('./img/icons8-menú-64.png')
+    }
+} )
+
+navLink2.addEventListener ('click', () => {
+    activo.classList.remove('visibility')
+
+    if (activo.classList.contains('visibility')) {
+        btnMenu.src = ('./img/icons8-cerrar-ventana-48.png')
+    } else{
+        btnMenu.src = ('./img/icons8-menú-64.png')
+    }
+} )
+navLink3.addEventListener ('click', () => {
+    activo.classList.remove('visibility')
+
+    if (activo.classList.contains('visibility')) {
+        btnMenu.src = ('./img/icons8-cerrar-ventana-48.png')
+    } else{
+        btnMenu.src = ('./img/icons8-menú-64.png')
+    }
+} )
+
+navLink4.addEventListener ('click', () => {
+    activo.classList.remove('visibility')
+
+    if (activo.classList.contains('visibility')) {
+        btnMenu.src = ('./img/icons8-cerrar-ventana-48.png')
+    } else{
+        btnMenu.src = ('./img/icons8-menú-64.png')
+    }
+} )
+
 
 
 

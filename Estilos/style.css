@@ -120,6 +120,7 @@ div {
   background-color: var(--color-name);
 }
 
+
 .btn:hover {
   box-shadow: inset 0 0 20px var(--background-color-nav),
     0 0 20px var(--background-color-nav);
