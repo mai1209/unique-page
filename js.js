@@ -16,7 +16,7 @@ const info5 = document.getElementById('info5')
 const info6 = document.getElementById('info6')
 const info7 = document.getElementById('info7')
 const info8 = document.getElementById('info8')
-const info9 = document.getElementById('info9')
+
 
 const btnMenu = document.getElementById('btn-menu')
 const activo = document.getElementById('active')
@@ -66,9 +66,7 @@ openBtn7.addEventListener('click',() =>{
 openBtn8.addEventListener('click',() =>{
     info8.classList.toggle('open')
 } )
-openBtn9.addEventListener('click',() =>{
-    info9.classList.toggle('open')
-} )
+
 
 
 
@@ -83,7 +81,7 @@ btnMenu.addEventListener('click', () =>{
         btnMenu.src = ('./img/icons8-menú-64.png')
     }
 } )
-
+console.log(activo)
 
 //FUNCION DE ALERTA PARA PRODUCTOS
 
