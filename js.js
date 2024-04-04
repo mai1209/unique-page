@@ -16,6 +16,7 @@ const info5 = document.getElementById('info5')
 const info6 = document.getElementById('info6')
 const info7 = document.getElementById('info7')
 const info8 = document.getElementById('info8')
+const info9 = document.getElementById('info9')
 
 
 const btnMenu = document.getElementById('btn-menu')
