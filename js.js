@@ -23,6 +23,8 @@ const activo = document.getElementById('active')
 const producto= document.getElementById('producto')
 const submit= document.getElementById('submit')
 
+console.log(submit)
+
 
 const navLink = document.getElementById('navLink')
 const navLink2 = document.getElementById('navLink2')
